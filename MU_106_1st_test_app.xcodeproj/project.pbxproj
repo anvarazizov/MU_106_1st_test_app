@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D6ABA8181881B300F36E94 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D6ABA7181881B300F36E94 /* People.m */; };
 		11DC3E3518159B7600B2B7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DC3E3418159B7600B2B7DE /* Foundation.framework */; };
 		11DC3E3718159B7600B2B7DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DC3E3618159B7600B2B7DE /* CoreGraphics.framework */; };
 		11DC3E3918159B7600B2B7DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DC3E3818159B7600B2B7DE /* UIKit.framework */; };

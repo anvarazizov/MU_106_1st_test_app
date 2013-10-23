@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Transport.h"
+#import "People.h"
 
 @implementation AppDelegate
 
@@ -16,6 +18,20 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    Transport* marshrutka1 = [[Transport alloc] init];
+    People* people1 = [[People alloc] init];
+    
+    NSLog(@"%@", marshrutka1);
+    NSLog(@"%@", people1);
+    
+    [marshrutka1 start];
+    [marshrutka1 stop];
+    
+    [people1 head];
+    [people1 body];
+    [people1 legs];    
+    
     return YES;
 }
 
